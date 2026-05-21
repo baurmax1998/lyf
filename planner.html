@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lyf – Tagesplan</title>
+    <meta name="description" content="Tagesplan über alle Kategorien hinweg: Training, Mental, Alltag, Haushalt und Selfcare." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="index.html">lyf</a>
+        <div class="nav-links">
+          <a href="index.html">Start</a>
+          <a class="active" href="planner.html">Tagesplan</a>
+          <a href="training.html">Training</a>
+          <a href="mental.html">Mental</a>
+          <a href="alltag.html">Alltag</a>
+          <a href="haushalt.html">Haushalt &amp; Selfcare</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="hero">
+        <span class="badge">Interaktiver Tagesplan</span>
+        <h1>Ein Tag, alle relevanten Aufgaben</h1>
+        <p class="lead">
+          Diese Ansicht aggregiert deine Aufgaben aus Training, mentalem Training, Alltag sowie Haushalt &amp; Selfcare.
+          Du kannst zwischen Tagen durchskippen und siehst direkt, was für das gewählte Datum ansteht.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="planner-toolbar panel">
+          <div>
+            <p class="small">Aktuelles Datum</p>
+            <h2 id="planner-date">Lädt …</h2>
+            <p id="planner-meta" class="small"></p>
+          </div>
+          <div class="planner-controls">
+            <button class="button secondary" id="prev-day" type="button">← Vorheriger Tag</button>
+            <button class="button" id="today" type="button">Heute</button>
+            <button class="button secondary" id="next-day" type="button">Nächster Tag →</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section panel">
+        <h2>Tagesfokus</h2>
+        <p id="planner-focus" class="lead planner-focus">Lädt …</p>
+        <div id="planner-notes" class="planner-notes"></div>
+      </section>
+
+      <section class="section">
+        <div id="planner-categories" class="planner-grid"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>lyf Tagesplan · funktioniert statisch auf GitHub Pages</p>
+    </footer>
+
+    <script src="planner.js" defer></script>
+  </body>
+</html>

@@ -48,6 +48,7 @@ PAGES = [
 
 NAV = [
     ("index.html", "Start", "index"),
+    ("planner.html", "Tagesplan", "planner"),
     ("training.html", "Training", "training"),
     ("mental.html", "Mental", "mental"),
     ("alltag.html", "Alltag", "alltag"),

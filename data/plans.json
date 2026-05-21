@@ -1,0 +1,395 @@
+{
+  "meta": {
+    "title": "lyf Tagesplan",
+    "cycleStart": "2026-05-18",
+    "cycleLengthWeeks": 4,
+    "timezone": "Europe/Berlin",
+    "notes": [
+      "Die 4-Wochen-Haushaltsrotation startet mit Woche 1 am 2026-05-18 (Montag).",
+      "Der Tagesplan aggregiert Aufgaben aus Training, Mentaltraining, Alltag sowie Haushalt & Selfcare.",
+      "Die Ansichten training/mental/alltag/haushalt bleiben als vollständige Detailseiten erhalten."
+    ]
+  },
+  "defaults": {
+    "daily": [
+      {
+        "category": "Haushalt & Selfcare",
+        "title": "Creatin nehmen",
+        "details": "Direkt nach dem Frühstück oder nach dem Training."
+      },
+      {
+        "category": "Alltag",
+        "title": "Tagesplan kurz aktivieren",
+        "details": "Nicht neu überlegen, sondern den Plan ansehen und den Fokus setzen."
+      },
+      {
+        "category": "Mental",
+        "title": "Atemfokus",
+        "details": "2 Minuten: 4 Sekunden einatmen, 6 Sekunden ausatmen."
+      },
+      {
+        "category": "Mental",
+        "title": "Kurzer Check-in",
+        "details": "Stress, Motivation und Tageszustand einschätzen."
+      },
+      {
+        "category": "Haushalt & Selfcare",
+        "title": "10 Minuten Aufräumen",
+        "details": "Abendlicher Reset, klein und konkret halten."
+      },
+      {
+        "category": "Haushalt & Selfcare",
+        "title": "Müll einsammeln",
+        "details": "Vor dem Verlassen der Wohnung oder im Abend-Reset."
+      },
+      {
+        "category": "Alltag",
+        "title": "Abendroutine für morgen",
+        "details": "Kalender prüfen, Hauptaufgabe wählen, 2–3 Nebenaufgaben festlegen, Haushalt und Selfcare planen."
+      },
+      {
+        "category": "Alltag",
+        "title": "Mini-Journal",
+        "details": "Was war gut strukturiert? Was hat Energie gezogen? Was ist morgen die Hauptaufgabe?"
+      }
+    ]
+  },
+  "weekdays": {
+    "monday": {
+      "focus": "Arbeitsstart sauber + Krafttraining",
+      "tasks": [
+        {
+          "category": "Training",
+          "title": "Kraftzug + Core",
+          "details": "Dynamisches Warm-up, Klimmzüge 5x5, Lock-Offs, Tucked Front Lever, Plank, Hollow Holds, Liegestützen, Dips."
+        },
+        {
+          "category": "Mental",
+          "title": "Kontrolle und Spannung",
+          "details": "Atemfokus, Tagesziel und Visualisierung. Cues: ‚lang, stark, sauber‘, ‚ruhig halten‘, ‚Spannung aus der Mitte‘."
+        },
+        {
+          "category": "Alltag",
+          "title": "Hauptfokus Montag",
+          "details": "Arbeitsstart sauber halten und nicht zu viel parallel planen."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Spülmaschine ausräumen",
+          "details": "Morgens nach dem Kaffee."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Küche + Müll",
+          "details": "Kleine konkrete Haushaltsaufgabe für den Montag."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Stretching am Abend",
+          "details": "10 bis 15 Minuten zum Runterfahren."
+        }
+      ]
+    },
+    "tuesday": {
+      "focus": "Arbeit + Klettertag",
+      "tasks": [
+        {
+          "category": "Training",
+          "title": "Klettern oder Bouldern",
+          "details": "15 Minuten Warm-up, 60–90 Minuten Hauptteil, einige harte Versuche mit Qualität."
+        },
+        {
+          "category": "Mental",
+          "title": "Commitment und Qualität",
+          "details": "Vor der Session Ziel definieren, schwierige Stelle visualisieren, 1 Cue für harte Versuche setzen."
+        },
+        {
+          "category": "Alltag",
+          "title": "Hauptfokus Dienstag",
+          "details": "Erst das Wichtige, dann der Rest. Neben Training nur kleine Zusatzaufgaben einplanen."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Spülmaschine einräumen",
+          "details": "Abends nach dem Essen."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Kleine Haushaltsaufgabe",
+          "details": "Zum Beispiel Schreibtisch, Spülmaschine oder 10–15 Minuten Oberflächen."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Früh runterkommen",
+          "details": "Nach dem Klettern ruhig werden und möglichst früh schlafen."
+        }
+      ]
+    },
+    "wednesday": {
+      "focus": "Konzentrierter Arbeitstag + Hangboard",
+      "tasks": [
+        {
+          "category": "Training",
+          "title": "Assisted Hangboard + Core",
+          "details": "Warm-up, 3 Sätze Assisted Repeaters, Dead Hangs, Tucked Front Lever, Plank, Hollow Holds."
+        },
+        {
+          "category": "Mental",
+          "title": "Ruhe und Körpersignal",
+          "details": "Körperscan für Finger, Ellenbogen und Schultern. Fokus auf kontrolliertes Training statt Ego."
+        },
+        {
+          "category": "Alltag",
+          "title": "Hauptfokus Mittwoch",
+          "details": "Konzentrierter Arbeitstag mit einer klaren Hauptaufgabe."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Spülmaschine ausräumen",
+          "details": "Morgens nach dem Kaffee."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Bio Müll",
+          "details": "Fester Wochentag: Mittwoch."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Wäsche aufhängen",
+          "details": "Fester Wochentag: Mittwoch."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Mobility oder Lesen",
+          "details": "Selfcare am Abend einplanen."
+        }
+      ]
+    },
+    "thursday": {
+      "focus": "Arbeit + Klettertag",
+      "tasks": [
+        {
+          "category": "Training",
+          "title": "Klettern oder Bouldern",
+          "details": "Technik, saubere Bewegung und moderates Volumen; nicht komplett ausbelasten."
+        },
+        {
+          "category": "Mental",
+          "title": "Technik und Effizienz",
+          "details": "Stichwort wie ‚ruhig‘ oder ‚flüssig‘ wählen und pro Versuch nur 1 Technikfokus setzen."
+        },
+        {
+          "category": "Alltag",
+          "title": "Hauptfokus Donnerstag",
+          "details": "Trainingstag beruflich und privat nicht maximal überladen."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Spülmaschine einräumen",
+          "details": "Abends nach dem Essen."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Wäsche einräumen",
+          "details": "Fester Wochentag: Donnerstag."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Kleine Aufgabe",
+          "details": "Zum Beispiel Einkauf oder Oberflächen."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Wenig Bildschirm am Abend",
+          "details": "Bewusst runterregeln."
+        }
+      ]
+    },
+    "friday": {
+      "focus": "Wochenabschluss + Training",
+      "tasks": [
+        {
+          "category": "Training",
+          "title": "Druckkraft + Assisted Hangboard",
+          "details": "Liegestützen, Dips, Lock-Offs, Plank, Hollow Holds, Assisted Hangboard etwas leichter als Mittwoch."
+        },
+        {
+          "category": "Mental",
+          "title": "Disziplin und Dosierung",
+          "details": "Sauber statt erzwungen. Stoppen, bevor Technik kippt."
+        },
+        {
+          "category": "Alltag",
+          "title": "Hauptfokus Freitag",
+          "details": "Arbeitswoche sauber abschließen und bewusst in den Abend wechseln."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Spülmaschine ausräumen",
+          "details": "Morgens nach dem Kaffee."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Rest Müll",
+          "details": "Fester Wochentag: Freitag."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Bad oder Aufräumen",
+          "details": "Kleine konkrete Wochenabschluss-Aufgabe."
+        }
+      ]
+    },
+    "saturday": {
+      "focus": "Flexibler Klettertag oder Erholung",
+      "tasks": [
+        {
+          "category": "Training",
+          "title": "Flexibler Klettertag oder Recovery",
+          "details": "Entweder lockerer bis moderater Klettertag oder 20–30 Minuten Recovery + Mobility."
+        },
+        {
+          "category": "Mental",
+          "title": "Selbstvertrauen oder Recovery-Reflexion",
+          "details": "Spielerisch bleiben oder eine kurze mentale Einheit mit Atemfokus und Visualisierung machen."
+        },
+        {
+          "category": "Alltag",
+          "title": "Hauptfokus Samstag",
+          "details": "Mehr Flexibilität: Klettern, Erholung, soziale Zeit oder ruhige Selfcare."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Spülmaschine einräumen",
+          "details": "Abends nach dem Essen."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Gelber Sack prüfen",
+          "details": "Nur bei Bedarf rausbringen."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Flaschen runterbringen",
+          "details": "Am besten, wenn du ohnehin das Haus verlässt."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Getränke kaufen",
+          "details": "Direkt nach dem Flaschenwegbringen."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Wäsche aufhängen",
+          "details": "Fester Wochentag: Samstag."
+        }
+      ]
+    },
+    "sunday": {
+      "focus": "Erholung + Review + Wochenplanung",
+      "tasks": [
+        {
+          "category": "Training",
+          "title": "Flexibler Klettertag oder Recovery",
+          "details": "Wenn Klettertag, eher locker. Sonst Recovery / Mobility 15–25 Minuten."
+        },
+        {
+          "category": "Mental",
+          "title": "Wochenreview",
+          "details": "Was lief mental gut? Wo war Zögern, Mut, Hektik? Fokus für nächste Woche festlegen."
+        },
+        {
+          "category": "Alltag",
+          "title": "Wochenplanung",
+          "details": "Feste Termine, Arbeitsblöcke, Trainingstage, Top-3 der Woche und Selfcare-Blöcke planen."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Spülmaschine ausräumen",
+          "details": "Morgens nach dem Kaffee."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Bio Müll",
+          "details": "Fester Wochentag: Sonntag."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Wäsche einräumen",
+          "details": "Fester Wochentag: Sonntag."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Wohnungs-Reset + Spaziergang / Journaling",
+          "details": "Sonntag als Reset und Erholung nutzen."
+        }
+      ]
+    }
+  },
+  "cycleWeeks": {
+    "1": {
+      "sunday": [
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Bett beziehen",
+          "details": "Alle 2 Wochen in Woche 1 und 3."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Mani und Pedi",
+          "details": "Pflegeblock am Sonntag einplanen."
+        }
+      ]
+    },
+    "2": {
+      "sunday": [
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Bart rasieren",
+          "details": "Alle 2 Wochen in Woche 2 und 4."
+        }
+      ]
+    },
+    "3": {
+      "sunday": [
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Bett beziehen",
+          "details": "Alle 2 Wochen in Woche 1 und 3."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Mani und Pedi",
+          "details": "Pflegeblock am Sonntag einplanen."
+        }
+      ]
+    },
+    "4": {
+      "saturday": [
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Haare schneiden",
+          "details": "Monatlicher Pflegeblock in Woche 4."
+        },
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Nasenhaare schneiden",
+          "details": "Mit dem Haarschnitt koppeln."
+        }
+      ],
+      "sunday": [
+        {
+          "category": "Haushalt & Selfcare",
+          "title": "Bart rasieren",
+          "details": "Alle 2 Wochen in Woche 2 und 4."
+        }
+      ]
+    }
+  },
+  "categoryLinks": {
+    "Training": "training.html",
+    "Mental": "mental.html",
+    "Alltag": "alltag.html",
+    "Haushalt & Selfcare": "haushalt.html"
+  }
+}
