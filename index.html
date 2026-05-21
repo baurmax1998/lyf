@@ -3,21 +3,112 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>lyf</title>
-    <meta name="description" content="Statische Website für lyf auf GitHub Pages" />
+    <title>lyf – Pläne für Training, Alltag, Haushalt und Mindset</title>
+    <meta name="description" content="lyf bündelt Trainingsplan, mentalen Trainingsplan, Alltagsstruktur und Haushalts-/Selfcare-Plan in einer statischen Website." />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="container">
-      <span class="badge">GitHub Pages</span>
-      <h1>Willkommen bei lyf</h1>
-      <p>
-        Dieses Repository ist bereit für eine statische Website mit GitHub Pages.
-      </p>
-      <div class="actions">
-        <a class="button" href="https://github.com/new" target="_blank" rel="noreferrer">Repo auf GitHub anlegen</a>
-        <a class="button button-secondary" href="README.md">Setup ansehen</a>
-      </div>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="index.html">lyf</a>
+        <div class="nav-links">
+          <a class="active" href="index.html">Start</a>
+          <a href="training.html">Training</a>
+          <a href="mental.html">Mental</a>
+          <a href="alltag.html">Alltag</a>
+          <a href="haushalt.html">Haushalt &amp; Selfcare</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <span class="badge">Statische Website · GitHub Pages</span>
+        <h1>lyf bringt deine Pläne in eine klare Struktur.</h1>
+        <p class="lead">
+          Diese Seite überführt die Inhalte aus deinen Markdown-Plänen in eine navigierbare HTML-Website:
+          Trainingsplan, mentales Training, mentaler Alltagsplan sowie Haushalts- und Selfcare-Struktur.
+        </p>
+        <div class="actions">
+          <a class="button" href="training.html">Zum Trainingsplan</a>
+          <a class="button secondary" href="mental.html">Mentale Routinen ansehen</a>
+        </div>
+      </section>
+
+      <section class="page section">
+        <div class="panel-grid">
+          <article class="kpi">
+            <strong>4 Bereiche</strong>
+            Training, Mentales Training, Alltag und Haushalt gebündelt.
+          </article>
+          <article class="kpi">
+            <strong>7 Tage</strong>
+            Klare Wochenstruktur mit Routinen, Recovery und Review.
+          </article>
+          <article class="kpi">
+            <strong>Wiederholbar</strong>
+            Alle Inhalte sind auf Konstanz und einfache Umsetzung ausgelegt.
+          </article>
+        </div>
+      </section>
+
+      <section class="page grid section">
+        <article class="card">
+          <h2>Trainingsplan Klettern</h2>
+          <p>
+            Wochenstruktur mit Kraft, Assisted Hangboard, Mobility, Klettertagen und Progression über mehrere Wochen.
+          </p>
+          <ul>
+            <li>Dienstag und Donnerstag als feste Klettertage</li>
+            <li>Montag/Freitag Kraftfokus</li>
+            <li>Mittwoch Hangboard + Core</li>
+          </ul>
+          <a class="button secondary" href="training.html">Seite öffnen</a>
+        </article>
+
+        <article class="card">
+          <h2>Mentales Training</h2>
+          <p>
+            Kurze, wiederholbare Routinen für Fokus, Commitment, Atmung, Reflexion und mentale Stabilität beim Klettern.
+          </p>
+          <ul>
+            <li>2 Minuten Atemfokus</li>
+            <li>Visualisierung vor Sessions</li>
+            <li>Reflexion nach harten Versuchen</li>
+          </ul>
+          <a class="button secondary" href="mental.html">Seite öffnen</a>
+        </article>
+
+        <article class="card">
+          <h2>Mentaler Alltagsplan</h2>
+          <p>
+            Wochenstruktur plus Abendroutine, damit Arbeit, Training, Haushalt und Selfcare realistisch geplant werden.
+          </p>
+          <ul>
+            <li>1 Hauptaufgabe pro Tag</li>
+            <li>2–3 Nebenaufgaben</li>
+            <li>feste Selfcare- und Haushaltsblöcke</li>
+          </ul>
+          <a class="button secondary" href="alltag.html">Seite öffnen</a>
+        </article>
+
+        <article class="card">
+          <h2>Haushalt &amp; Selfcare</h2>
+          <p>
+            Ein 4‑Wochen-System mit wiederkehrenden Aufgaben, Triggern, Wochenregeln und einfacher Reminder-Logik.
+          </p>
+          <ul>
+            <li>tägliche Reset-Routinen</li>
+            <li>klare Wochen- und Monatsaufgaben</li>
+            <li>praktische Bündelungen für Samstag und Sonntag</li>
+          </ul>
+          <a class="button secondary" href="haushalt.html">Seite öffnen</a>
+        </article>
+      </section>
     </main>
+
+    <footer class="footer">
+      <p>lyf · bereit für GitHub Pages</p>
+    </footer>
   </body>
 </html>
